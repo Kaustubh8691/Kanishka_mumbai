@@ -1,0 +1,136 @@
+
+img#logo-about-vk {
+    color: rgb(73, 141, 126);
+    height: 4vh;
+    margin-top: -2vh;
+    margin-inline: 1vh;
+    width: 2vw;
+}
+.about-bot {
+    background-color: #c8e7df;
+    padding-top: 50vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: -43vh;
+    padding-inline: 20vh;
+    padding-bottom: 10vh
+}
+.left-side {
+    width: 24vw;
+}
+.abou-bot-title {
+    font-size: xx-large;
+    font-weight: 700;
+    color: #498d7e;
+}
+.abou-bot-detail {
+    font-weight: 700;
+    width: 18vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    font-style: italic;
+}
+.abou-bot-desc {
+    font-weight: 500;
+    color: #6a817b;
+    margin-bottom: 6vh;
+}
+
+
+
+
+/* middle */
+
+.about-middle-container {
+    margin-left: 2vw;
+    width: 16vw;
+    margin-right: 8vw
+}
+.middle-contact {
+    margin-top: 2vh;
+}
+.middle-title {
+    font-weight: 800;
+    color: #498d7e;
+    margin-bottom: 2vh;
+}
+.middle-text {
+    font-weight: 500;
+    color: #6d8b83;
+}
+
+
+/* right mail container */
+
+.about-mail-conntainer {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"] {
+    color: lightgray;
+    width: 28vw;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    border: none;
+    font-size: larger;
+    padding-inline: 8px;
+    border-radius: 7px;
+}
+
+input[type="email"] {
+    color: lightgray;
+    width: 28vw;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    border: none;
+    font-size: larger;
+    padding-inline: 8px;
+    border-radius: 7px;
+}
+textarea {
+    border: none;
+    height: 18vh;
+    margin-bottom: 2vh;
+    border-radius: 6px;
+}
+button#email-submit {
+    border: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 7px;
+    font-weight: 700;
+    color: #a3eddc;
+    background-color: #498d7e;
+}
+@media screen and (max-width: 755px)
+{.about-bot {
+    padding-inline: 4vh;
+
+}
+.left-side {
+    text-align: center;
+    width: 100%;
+}
+.abou-bot-detail {
+    width: 100%;
+}
+.about-middle-container {
+    width: 100%;
+}
+.about-mail-conntainer {
+    display: flex;
+    padding-top: 7vh;
+    margin: auto;
+    flex-direction: column;
+}
+input[type="text"] {
+    width: 100%;
+}
+input[type="email"] {
+    width: 100%;
+}
+
+}

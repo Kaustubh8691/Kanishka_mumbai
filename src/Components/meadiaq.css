@@ -1,0 +1,120 @@
+@media screen and (max-width: 755px) {
+  .intro1-container {
+    width: 80%;
+    flex-wrap: wrap;
+    height: fit-content;
+    display: flex;
+    background-color: white;
+  }
+  .intro1-left {
+    width: 100%;
+  }
+  button.read-more {
+    width: 51vw;
+  }
+  .intro1-right {
+    width: 100%;
+  }
+  img#mobile {
+    width: 100%;
+  }
+  .intro2-description {
+    width: 75vw;
+  }
+  .about-top {
+    flex-wrap: wrap;
+  }
+  .details-container {
+    padding-inline: 5vh;
+    padding-bottom: 15vh;
+  }
+  .details-head {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+  .cardss.bgtext {
+    width: 100%;
+    text-align-last: center;
+  }
+  .card-description {
+    width: 100%;
+  }
+  .feature-container {
+    padding-inline: 4vh;
+  }
+  .feature-card {
+    width: 100%;
+    margin-top: 2vh;
+  }
+  img.featur-imgs {
+    height: 47vh;
+    width: 100%;
+    border-radius: 19px;
+  }
+  .featur-description {
+    width: 100%;
+  }
+  button.feature-more-btn {
+    width: 50%;
+  }
+  .design-container {
+    display: flex;
+    padding-inline: 4vh;
+  }
+  .about-top {
+    padding-inline: 5vh;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .about-title {
+    width: 100%;
+  }
+  .about-descri {
+    width: 100%;
+  }
+  .about-right {
+    width: 100%;
+    margin-top: 8vh;
+    padding-inline: 2vw;
+  }
+  .profile-details {
+    width: 100%;
+  }
+  button.about-profile-btn {
+    margin: auto;
+  }
+  .downloadtab {
+    width: 100%;
+  }
+  .download-desc {
+    width: 86%;
+  }
+  .about-bot {
+    padding-inline: 4vh;
+  }
+  .abou-bot-detail {
+    width: 100%;
+  }
+  svg {
+    height: 4em;
+    width: 2em;
+  }
+  .about-middle-container {
+    width: 100%;
+  }
+  .about-mail-conntainer {
+    display: flex;
+    padding-top: 7vh;
+    margin: auto;
+    flex-direction: column;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+  input[type="email"] {
+    width: 100%;
+  }
+}

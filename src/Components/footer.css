@@ -1,0 +1,10 @@
+.footer-text {
+    height: 42vh;
+    background-color: #313131;
+    margin-top: -43vh;
+    padding-top: 20vh;
+    color: #878787;
+    font-weight: 600;
+    font-size: medium;
+    text-align: -webkit-center;
+}

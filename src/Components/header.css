@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  padding-inline: 7vw;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  justify-content: space-between;
+}
+
+.more {
+  width: 31px;
+  height: 5px;
+  font-size: -webkit-xxx-large;
+}
+
+img#more-header {
+  height: 6vh;
+  padding-top: 1vh;
+}
+
+.logo-text {
+  font-size: xx-large;
+  color: lightgray;
+  font-weight: 600;
+}

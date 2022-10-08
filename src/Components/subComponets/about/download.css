@@ -1,0 +1,48 @@
+.download-desc {
+  width: 24vw;
+  margin: auto;
+  font-weight: 500;
+  margin-bottom: 9vh;
+  color: #8d8787;
+}
+.download-btn {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+button.download-btn {
+  font-weight: 700;
+  border: none;
+  background-color: #2e9276;
+  border-radius: 3px;
+  padding-inline: 3vh;
+  margin-left: 1vw;
+  color: white;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+div#download-title {
+  font-size: xx-large;
+  margin-top: 7vh;
+}
+.downloadtab {
+  width: 70%;
+  position: relative;
+  border-radius: 10px;
+  top: -20vh;
+  z-index: 1;
+  background-color: white;
+  text-align-last: center;
+  margin: auto;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 755px) {
+  .downloadtab {
+    width: 100%;
+  }
+  .download-desc {
+    width: 86%;
+  }
+}

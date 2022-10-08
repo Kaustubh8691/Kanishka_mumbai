@@ -1,0 +1,95 @@
+button.about-profile-btn {
+  border: none;
+  background-color: #2e9276;
+  padding-inline: 2vw;
+  color: white;
+  border-radius: 7px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  display: flex;
+  font-weight: 700;
+}
+.profile-details {
+  font-size: x-large;
+  width: 20vw;
+  margin-top: 2vh;
+  color: #2e9278;
+  margin-bottom: 2vh;
+}
+img#profileimg {
+  border-radius: 50%;
+  height: 33vh;
+  width: 33vh;
+  border: 6px solid #b0d1c6;
+}
+img#quat {
+  color: aqua;
+  height: 10vh;
+  position: relative;
+  top: -15vh;
+  right: -33vh;
+}
+
+.about-right {
+  width: 25vw;
+  padding-inline: 2vw;
+}
+.about-left {
+  width: 53vw;
+}
+.about-top {
+  background-color: #fbf1e8;
+  padding-inline: 20vh;
+  display: flex;
+  padding-bottom: 40vh;
+  padding-top: 12vh;
+}
+
+.about-title {
+  font-size: xxx-large;
+  width: 10vw;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+.about-descri {
+  width: 81%;
+}
+p.about-descrip1 {
+  font-size: large;
+  color: #9b9b9b;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 755px) {
+  .about-top {
+    padding-inline: 5vh;
+    flex-wrap: wrap;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .about-title {
+    width: 100%;
+  }
+  .about-descri {
+    width: 100%;
+  }
+  .about-right {
+    width: 100%;
+    margin-top: 8vh;
+    padding-inline: 2vw;
+  }
+  .profile-details {
+    width: 100%;
+  }
+  button.about-profile-btn {
+    margin: auto;
+  }
+  img#quat {
+    color: aqua;
+    height: 10vh;
+    position: relative;
+    top: 6vh;
+    right: -21vh;
+  }
+}
